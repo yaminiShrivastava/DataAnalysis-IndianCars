@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(242, 245, 248);
+}
+.section-1{
+    opacity: 90%;
+    height: 100vh;
+    background-image: url('./picmain.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+.section-3{
+    
+    opacity: 80%;
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp5413475.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+.section-2{
+    height: 700px;
+}
+
+.txt{
+    opacity: 90%;
+    /* background-color: #050505; */
+        border-top: 0.5px solid white;
+        border-bottom: 0.5px solid white;
+        width: 100%;
+        padding: 10px 0px;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+}
+.feature{
+    background-color: white;
+    box-shadow: 5px 10px 18px #888888;
+}
+.bodyText{
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+.signin{
+    margin: 5px 40%;
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+}
+.headingCard{
+    margin-top: 10%;
+}
+.bodyImg{
+    margin: 0 10% ;
+    width: 80%;
+}
+.card-img-top{
+    height: 200px;
+}
+.card{
+    margin: 32px 29px;
+    box-shadow: 5px 10px 18px #888888;
+    height: 500px;
+}
+
+@media (max-width: 992px) { 
+    .col-sm-4 {
+        flex: 0 0 auto;
+        width: 52.333333%;
+        padding: 0px;
+        margin: -15px;;
+        }
+        .section-2 {
+            height: 150vh;
+        }
+  }
+  @media (max-width: 493px) { 
+    .col-sm-4 {
+        flex: 0 0 auto;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;;
+        }
+        .section-2 {
+            height: 260vh;
+        }
+  }
+  @media (min-width: 1274px) { 
+    .bodyImg {
+        margin: 0 15vw;
+        width: 930px;
+    }
+   }
