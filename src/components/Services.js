@@ -237,7 +237,7 @@ export default function Services() {
 
 
     <div id='Transmission_pie' className='PieCard card'>
-    <div className='heading bg-dark bg-gradient text-light text-center'>Tansmission Type( in % )</div>
+    <div className='heading bg-dark bg-gradient text-light text-center'>Transmission Type( in % )</div>
       <div className='pie' >
       <GraphPie data={Transmission_pieData} />
       </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
-// import {Link} from 'react-router-dom'
+import Footer from './Footer'
+import {Link} from 'react-router-dom'
 function Home() {
   return (
       <>
@@ -57,14 +58,12 @@ function Home() {
             <div className='innerBodyTxt d-flex justify-content-center'>
                 See full analysis of cars on the basis of their body types, fuel types and displacement
             </div>
-            {/* <Link className="bg-dark text-light bg-gradient btn signin" to="/Services">Analysis</Link> */}
-            
-            <a className="bg-dark text-light bg-gradient btn signin" href="/Services">Analysis</a>
+            <Link className="bg-dark text-light bg-gradient btn signin" to="/Services">Analysis</Link>
         </div>
             <img className="bodyImg justify-content-center" src='body1.webp' alt='net Isuue'></img>
         </div>
       </div>
-      
+      <Footer/>
       </>
   )
 }
